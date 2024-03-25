@@ -10,4 +10,4 @@ app = Flask(__name__)
 #@app.route. This is a route. A route is a way to navigate to a specific page on the website.
 @app.route("/")
 def hello():
-    return render_template("index.html")
+    return render_template("You wanna smash?")
